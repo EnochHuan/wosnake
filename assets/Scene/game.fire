@@ -104,7 +104,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bg",
+    "_name": "game",
     "_objFlags": 0,
     "_opacity": 255,
     "_color": {
@@ -193,7 +193,17 @@
     "_enabled": true,
     "applePrefab": {
       "__uuid__": "46c32efb-860f-48b7-9268-b5000492c31a"
-    }
+    },
+    "headPrefab": {
+      "__uuid__": "b7ab5d07-aea1-4358-bc79-0d24fff2d7be"
+    },
+    "bodyPrefab": {
+      "__uuid__": "e8468b46-c705-4a26-970b-e617e78a363a"
+    },
+    "dir": "left",
+    "len": 3,
+    "snakeSpeed": 0.4,
+    "snakeLen": 22
   },
   {
     "__type__": "cc.Node",
@@ -289,9 +299,6 @@
     },
     "bodyPrefab": {
       "__uuid__": "e8468b46-c705-4a26-970b-e617e78a363a"
-    },
-    "bg": {
-      "__id__": 3
     },
     "dir": "left",
     "len": 3,

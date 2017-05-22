@@ -13,10 +13,6 @@ cc.Class({
 
     },
 
-    //初始化蛇对象
-    initSnake: function(){
-
-    }
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {
 
